@@ -10,7 +10,7 @@ env:
 jobs:
   unit_tests:
     name: "Run Apex Tests"
-    runs-on: sfdc-ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: Install sfdx
